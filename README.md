@@ -1,7 +1,5 @@
 # Forest Cover Type Classification
 
-**Python | Machine Learning | Multiclass Classification**
-
 ## Overview
 
 Predicting one of seven forest cover types from cartographic and environmental variables using the [Kaggle Forest Cover Type Prediction dataset](https://www.kaggle.com/competitions/forest-cover-type-prediction/data). The labeled dataset contains **15,120 observations**, balanced across the seven classes.
@@ -25,13 +23,3 @@ The final **LightGBM + XGBoost + ExtraTrees** ensemble achieved approximately **
 - [`forest_cover_classification.ipynb`](forest_cover_classification.ipynb) — Feature engineering, ablation, model comparison, tuning, evaluation and predictions.
 - [`eda_visualizations.ipynb`](eda_visualizations.ipynb) — Exploratory figures and dataset diagnostics.
 - [`report.pdf`](report.pdf) — Full project methodology, results and analysis.
-- `requirements.txt` — Python dependencies.
-
-## Running the notebooks
-
-1. Download `train.csv` and `test.csv` from the [Kaggle competition data page](https://www.kaggle.com/competitions/forest-cover-type-prediction/data), accepting its terms if prompted.
-2. Place both CSV files in a local `data/` directory alongside the notebooks.
-3. Install the dependencies with `pip install -r requirements.txt`.
-4. Run the EDA notebook and then the modeling notebook. Figures and competition predictions are saved locally to `figures/` and `outputs/`.
-
-The datasets and generated outputs are not committed to the repository. They are available or reproducible through the linked source and notebooks. The report contains the results of the completed study.
